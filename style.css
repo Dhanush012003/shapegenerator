@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/mathematics-background-fractions-white-table-close-up-dividing-fractions-math-concept-mathematics-background-fractions-white-174284217.jpg);
+    background-size: cover;
+    color: black;
+}
+.shape{
+    margin-top: 5cm;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -10px;
+    margin-left: -50px;
+}
+
+#para1{
+    font-size: 20px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.rectangle{
+    width: 100px;
+    height: 50px;
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+.square{
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin: 10px;
+  }
+  
+  
+  #number {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  #button {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #8a0909, #838512, #ffffff);
+    color: rgb(255, 255, 255);
+    border: white solid 1px;
+
+  }
